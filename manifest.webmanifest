@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "BTP 61016 Message Builder",
+  "short_name": "BTP 61016",
+  "description": "Prepare a clear British Transport Police text to 61016.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3f4f6",
+  "theme_color": "#a50034",
+  "icons": [
+    {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"}
+  ]
+}
