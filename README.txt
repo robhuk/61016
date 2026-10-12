@@ -13,3 +13,9 @@ To install as a PWA:
 4. Open it once online so the service worker can cache the app files.
 
 A PWA cannot be installed directly from a ZIP or file:// URL. Text BTP opens the device SMS composer where supported; the user must review and send the message manually. Clipboard and SMS behavior depends on browser/device permissions.
+
+Unique installation identity:
+- Manifest id: /BTPTXTAPP/
+- Short name: BTPTXTAPP
+- Service-worker cache: BTPTXTAPP-cache-v1
+IMPORTANT: Host this app at the /BTPTXTAPP/ path on your domain to match the configured start_url and scope. If hosted at a different path, update id/start_url/scope to that path before installing.
